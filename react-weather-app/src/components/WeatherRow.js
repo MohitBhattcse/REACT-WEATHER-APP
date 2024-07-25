@@ -1,4 +1,4 @@
-import { convertToFarenheit } from "../../../components/weatherUtil";
+import { convertToFarenheit } from "../../public/weatherUtil";
 
 const dateformatter= new Intl.DateTimeFormat("en-IN",{
     month: "short",

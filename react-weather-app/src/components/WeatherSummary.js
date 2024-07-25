@@ -1,4 +1,4 @@
-import { convertToFarenheit, getWeatherTypeFromCode } from "../../../components/weatherUtil";   
+import { convertToFarenheit, getWeatherTypeFromCode } from "../../public/weatherUtil";   
 const Weather=(
     {current_weather:{temperature, weatherCode}, isCelsius},
 )=> {
